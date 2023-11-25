@@ -193,11 +193,7 @@ body {
   height: 2px;
   background: #f00;
 }
-. {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 .redizain-main {
   display: flex;
   align-items: center;
@@ -229,10 +225,10 @@ body {
   font-weight: 700;
   letter-spacing: 1.17px;
 }
-.btn-main{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.btn-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .dizain-btn {
   width: 176px;
@@ -243,4 +239,96 @@ body {
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.91px;
+}
+/* .hend{
+    position: relative;
+}
+.hend1 {
+  position: absolute;
+  left: -10%;
+  bottom: -680px;
+}
+.hend2 {
+  position: absolute;
+  left: 55%;
+  bottom: -610px;
+} */
+.portfolio-main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 0;
+}
+.portfolio-div {
+  width: 364px;
+  height: 3px;
+  background: #f00;
+}
+.portfolio-main h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 2.6px;
+  margin: 4px 0;
+}
+.portfolio {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+  padding: 40px 0;
+}
+.portfolio-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* padding: 0 87px; */
+}
+.portfolio-text p {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.17px;
+}
+.portfolio-text button {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.17px;
+  width: 206px;
+  height: 57px;
+  border-radius: 51px;
+  background: #f00;
+  margin: 50px 0;
+}
+.portfolio-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portfolio-btn button {
+  width: 176px;
+  height: 44px;
+  border-radius: 27px;
+  background: #fff;
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.91px;
+}
+.portfolio-cards{
+    position: relative;
+}
+.portfolio-im1{
+    position: absolute;
+    left: -1%;
+    bottom: -440%;
+}
+.portfolio-im2{
+    position: absolute;
+    left: 46%;
+    bottom: -444%;
 }
