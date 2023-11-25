@@ -119,3 +119,128 @@ body {
   left: 56%;
   bottom: -85%;
 }
+#about {
+  padding: 130px 0;
+}
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.about-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.about-div {
+  width: 180px;
+  height: 3px;
+  background: #f00;
+}
+.about-text h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 2.6px;
+  margin: 4px 0 25px 0;
+}
+.about-text p {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1.56px;
+}
+.about-ion {
+  position: absolute;
+  left: 4%;
+  bottom: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #fff;
+  width: 53px;
+  height: 53px;
+  background: #f00;
+}
+.about-foto-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-foto {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.about-foto h1 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1.56px;
+  margin: 18px 0 2px 0;
+}
+.foto1-div {
+  width: 94.085px;
+  height: 2px;
+  background: #f00;
+}
+.foto2-div {
+  width: 121px;
+  height: 2px;
+  background: #f00;
+}
+. {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.redizain-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 80px 0;
+}
+.modul {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.modul-div {
+  width: 232px;
+  height: 3px;
+  background: #f00;
+}
+.modul h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1.95px;
+  margin: 19px 0;
+}
+.modul p {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.17px;
+}
+.btn-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dizain-btn {
+  width: 176px;
+  height: 44px;
+  border-radius: 27px;
+  background: #fff;
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.91px;
+}
