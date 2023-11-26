@@ -363,7 +363,7 @@ body {
   justify-content: center;
   position: absolute;
   left: 11%;
-  bottom: 47%;
+  bottom: 55%;
   width: 67px;
   height: 67px;
   background: #ff0000;
@@ -376,7 +376,7 @@ body {
   justify-content: center;
   position: absolute;
   left: 85%;
-  bottom: 47%;
+  bottom: 55%;
   width: 67px;
   height: 67px;
   background: #ff0000;
@@ -402,5 +402,114 @@ body {
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.91px;
-  margin: 60px 0;
+  margin: 60px 0 180px 0;
+}
+#footer {
+  padding: 80px 0;
+}
+.footer-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.footer-div {
+  width: 537px;
+  height: 3px;
+  background: #f00;
+}
+.footer-text h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 2.6px;
+  margin: 4px 0 26px 0;
+}
+.card-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer-card {
+  display: flex;
+  align-items: center;
+  width: 370px;
+  height: 75px;
+  border-radius: 7px;
+  border: 2px solid #f00;
+  background: #fff;
+}
+.footer-card1 {
+  display: flex;
+  align-items: center;
+  width: 370px;
+  height: 75px;
+  border-radius: 7px;
+  border: 2px solid #f00;
+  background: #fff;
+}
+.footer-nom1 h1 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.17px;
+  margin: 8px 0;
+}
+.footer-nom1 input {
+  width: 370px;
+  height: 75px;
+  border-radius: 7px;
+  border: 2px solid #f00;
+  background: #fff;
+  color: #b7b1b1;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 1.17px;
+  padding: 0 23px;
+}
+.footer-nom {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer-nom2 h2 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.17px;
+  margin: 8px 0;
+}
+.footer-nom2 input {
+  width: 370px;
+  height: 75px;
+  border-radius: 7px;
+  border: 2px solid #f00;
+  background: #fff;
+  color: #b7b1b1;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 1.17px;
+  padding: 0 23px;
+}
+.footer-nom3 {
+  padding: 0 90px;
+}
+.footer-nom3 h1 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.17px;
+  padding: 23px 0 8px 0;
+}
+.footer-nom3 input {
+  width: 972px;
+  height: 133px;
+  border-radius: 7px;
+  border: 2px solid #f00;
+  background: #fff;
+  color: #b7b1b1;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 1.17px;
+  padding: 0 15px;
 }
