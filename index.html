@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>UX/UI</title>
+    <link rel="icon" href="./img.ux/ux1.png">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -26,7 +33,12 @@
     <section id="hero">
       <div class="container">
         <div class="hero">
-          <div class="hero-text">
+          <div
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            class="hero-text"
+          >
             <h1>UI и UX</h1>
             <div class="hero-div"></div>
             <h2>НА МАКСИМАЛЬНОМ УРОВНЕ</h2>
@@ -49,7 +61,7 @@
     <section id="about">
       <div class="container">
         <div class="about">
-          <div class="about-text">
+          <div data-aos="zoom-in-up" class="about-text">
             <div class="about-div"></div>
             <h1>О НАС</h1>
             <p>
@@ -70,7 +82,8 @@
     </section>
     <section id="dizain">
       <div class="container">
-        <div class="dizain">
+        <div data-aos="fade-up" data-aos-duration="3000">
+          class="dizain">
           <div class="about-foto-main">
             <div class="about-foto">
               <img src="./img.ux/about1.png" alt="" />
@@ -89,7 +102,7 @@
             </div>
           </div>
           <div class="redizain-main">
-            <div class="modul">
+            <div data-aos="zoom-in-left" class="modul">
               <div class="modul-div"></div>
               <h1>РЕДИЗАЙН</h1>
               <p>
@@ -99,7 +112,7 @@
                 команду с гарантированной поддержкой.
               </p>
             </div>
-            <div class="modul">
+            <div data-aos="zoom-in-down" class="modul">
               <div class="modul-div"></div>
               <h1>ДИЗАЙН</h1>
               <p>
@@ -135,9 +148,9 @@
           <h1>Портфолио</h1>
         </div>
         <div class="portfolio-cads">
-          <div class="portfolio">
+          <div data-aos="fade-up-right" class="portfolio">
             <img src="./img.ux/portfolio1.png" alt="" />
-            <div class="portfolio-text">
+            <div data-aos="fade-up-left" class="portfolio-text">
               <p>
                 Мы выделяем команды с необходимым количеством <br />
                 разработчиков нужной квалификации, менеджеров<br />
@@ -147,7 +160,7 @@
             </div>
           </div>
           <div class="portfolio">
-            <div class="portfolio-text">
+            <div data-aos="fade-up" class="portfolio-text">
               <p>
                 Мы выделяем команды с необходимым количеством <br />
                 разработчиков нужной квалификации, менеджеров<br />
@@ -157,9 +170,9 @@
             </div>
             <img src="./img.ux/portfolio2.png" alt="" />
           </div>
-          <div class="portfolio">
+          <div data-aos="fade-down" class="portfolio">
             <img src="./img.ux/portfolio3.png" alt="" />
-            <div class="portfolio-text">
+            <div data-aos="fade-up-right" class="portfolio-text">
               <p>
                 Мы выделяем команды с необходимым количеством <br />
                 разработчиков нужной квалификации, менеджеров<br />
@@ -169,18 +182,20 @@
             </div>
           </div>
           <div class="portfolio">
-            <div class="portfolio-text">
+            <div data-aos="fade-up-left" class="portfolio-text">
               <p>
                 Мы выделяем команды с необходимым количеством <br />
                 разработчиков нужной квалификации, менеджеров<br />
                 проекта для расширения ваших внутренних ресурсов.
               </p>
-              <button class="custom-btn btn-8">Посмотреть</button>
+              <button data-aos="fade-down-right" class="custom-btn btn-8">
+                Посмотреть
+              </button>
             </div>
             <img src="./img.ux/portfolio4.png" alt="" />
           </div>
           <div class="portfolio-btn">
-            <button >Больше проектов</button>
+            <button>Больше проектов</button>
           </div>
           <div class="portfolio-im1">
             <img src="./img.ux/1.png" alt="" />
@@ -196,17 +211,15 @@
         <div class="reviews">
           <div class="reviews-div"></div>
           <h1>Отзывы</h1>
-          <div class="comments">
-            <img src="./img.ux/image 1.png" alt="" />
-
-            <span class="ion-1">
-              <ion-icon name="arrow-back-outline"></ion-icon>
-            </span>
-            <span class="ion-2"
-              ><ion-icon name="arrow-forward-outline"></ion-icon
-            ></span>
-            <button class="custom-btn btn-9">Все отзывы</button>
+          <img src="./img.ux/image 1.png" alt="" />
+          <div class="ion-1">
+            <ion-icon name="play-back-outline"></ion-icon>
+           
           </div>
+          <div class="ion-2">
+            <ion-icon name="airplane-outline"></ion-icon>
+          </div>
+          <button class="custom-btn btn-9">Все отзывы</button>
         </div>
       </div>
     </section>
@@ -233,9 +246,9 @@
           </div>
           <div class="footer-sms">
             <h1>Ответить:</h1>
-           <input type="radio" name="option">
-           <h2>Через SMS</h2>
-           <input type="radio" name="option">
+            <input type="radio" name="option" />
+            <h2>Через SMS</h2>
+            <input type="radio" name="option" />
             <h3>Через телефонный звонок</h3>
           </div>
           <button class="custom-btn btn-10">Отправить</button>
@@ -254,5 +267,10 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </body>
 </html>
