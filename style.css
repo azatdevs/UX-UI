@@ -527,10 +527,11 @@ body {
   font-weight: 700;
   letter-spacing: 1.56px;
 }
-.footer-d1 {
+.footer-sms input {
   width: 24px;
   height: 24px;
   fill: #fff;
+  color: #f00;
   margin: 0 4px 0 11px;
 }
 .footer-sms h2 {
@@ -540,12 +541,7 @@ body {
   font-weight: 700;
   letter-spacing: 1.17px;
 }
-.footer-d2 {
-  width: 24px;
-  height: 24px;
-  fill: #fff;
-  margin: 0 4px 0 23px;
-}
+
 .footer-sms h3 {
   color: #fff;
   text-align: center;
