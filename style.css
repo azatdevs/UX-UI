@@ -407,6 +407,7 @@ body {
 #footer {
   padding: 80px 0;
 }
+
 .footer-text {
   display: flex;
   align-items: center;
@@ -512,4 +513,55 @@ body {
   font-weight: 300;
   letter-spacing: 1.17px;
   padding: 0 15px;
+}
+.footer-sms {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 18px 100px;
+}
+.footer-sms h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1.56px;
+}
+.footer-d1 {
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+  margin: 0 4px 0 11px;
+}
+.footer-sms h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.17px;
+}
+.footer-d2 {
+  width: 24px;
+  height: 24px;
+  fill: #fff;
+  margin: 0 4px 0 23px;
+}
+.footer-sms h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.17px;
+}
+.footer button {
+  width: 188px;
+  height: 54px;
+  border-radius: 7px;
+  background: #fff;
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1.17px;
+  margin: 18px 0 0 100px;
 }
